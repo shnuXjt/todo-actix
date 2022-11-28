@@ -6,6 +6,7 @@ use std::fmt;
 pub enum AppErrorType {
     DbError,
     NotFoundError
+    
 }
 
 #[derive(Debug)]
